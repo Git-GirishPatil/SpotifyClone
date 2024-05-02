@@ -1,0 +1,308 @@
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  color: #fff;
+  overflow: hidden;
+}
+.main {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+}
+/*  ======================Side Bar========================*/
+.side_bar {
+  width: 294px;
+  background-color: black;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+
+.main_content {
+  background-color: #141414;
+  border-radius: 1rem;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-element {
+  background-color: #141414;
+  height: 8rem;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+}
+.side_bar {
+  padding: 0.1em 0.1em;
+}
+.nav {
+  margin-top: 1em;
+  opacity: 0.5;
+}
+.nav:hover {
+  opacity: 1;
+  transition: 0.1sec;
+}
+
+/*  ======================Side Bar Library======================== */
+.playlist {
+  background: #141414;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.library img {
+  padding-left: 1rem;
+  padding-right: 0.1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.library {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  opacity: 0.5;
+}
+.library i {
+  font-size: 1.25rem;
+  opacity: 0.7;
+}
+.library i:hover {
+  opacity: 1;
+  transition: 2sec;
+}
+.library:hover {
+  opacity: 1;
+  transition: 2sec;
+}
+
+.box {
+  background-color: #242424;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  height: 8rem;
+}
+.p1 {
+  font-size: 1rem;
+  font-weight: 550;
+}
+.p2 {
+  font-size: 0.75rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+.box .btn {
+  background: #fff;
+  color: #000;
+  padding: 0.2rem 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: 0.9;
+  font-weight: 550;
+}
+.box2 {
+  background-color: #242424;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  height: 9rem;
+}
+.box2 .btn2 {
+  background: #fff;
+  color: #000;
+  padding: 0.2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  font-size: 0.9;
+  font-weight: 550;
+}
+/*  ======================Main Content========================*/
+.main_content {
+  background-color: #121212;
+  flex: 1;
+  border-radius: 1rem;
+  width: 100%;
+  overflow: auto;
+  padding: 0 1.5rem 0 1rem;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 1rem 1rem;
+  z-index: 10;
+}
+
+.sticky-nav {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+.sticky-opts {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.sticky-opts button {
+  margin-right: 0.5rem;
+}
+.btn1 {
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+}
+.btn2 {
+  background: #000;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+}
+.btn2 i {
+  font-size: rem;
+  margin-right: 0.5rem;
+  background: #000;
+}
+.pro-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+.pro-icon i {
+  margin-right: 1rem;
+  opacity: 0.9;
+}
+.pro-icon:hover {
+  opacity: 1;
+  transition: 1sec;
+}
+.pro-icon i:hover {
+  opacity: 1;
+  transition: 2sec;
+}
+/*  ====================== Main Content- songs Cards ========================*/
+.song-typ {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #121212;
+  display: flex;
+  padding: 1rem 2rem 1rem 0;
+  z-index: 5;
+}
+.song-typ button {
+  font-size: 1rem;
+  padding: 0.3rem 0.9rem;
+  border-radius: 1rem;
+  background-color: #242424;
+  margin-right: 0.5rem;
+  opacity: 0.8;
+}
+.song-typ button:hover {
+  opacity: 1;
+  transition: 0.1sec;
+}
+
+/*  ======================Main Content- songs Cards========================*/
+.card {
+  background: #121212;
+  width: 170px;
+  margin: 1rem 0.5rem 2rem 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.card:hover {
+  background-color: #242424;
+}
+h2 {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+h2:hover {
+  text-decoration: underline;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.sub-title {
+  opacity: 0.5;
+  font-size: 0.7rem;
+}
+
+.footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 90%;
+  height: 30%;
+  border-top: 1px solid white;
+  opacity: 0.4;
+}
+
+.player {
+  width: 25%;
+}
+.controls {
+  width: 50%;
+}
+.other-control {
+  width: 25%;
+}
+.play-album {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.play-album img {
+  height: 3.5rem;
+  width: 3.5rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1.5rem;
+}
+.play-album h5 {
+  font-weight: 500;
+  margin: 0 0;
+}
+.play-album p {
+  font-size: 0.7rem;
+  margin: 0 0;
+  opacity: 0.8;
+  padding-bottom: 1rem;
+}
+.play-album i {
+  margin: 0 0 1rem 1rem;
+  opacity: 0.6;
+}
